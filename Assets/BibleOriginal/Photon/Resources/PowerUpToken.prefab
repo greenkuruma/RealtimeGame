@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3923800611958045252}
   - component: {fileID: 4861503704435591769}
   - component: {fileID: 4820550099655912969}
-  - component: {fileID: 3117162740268866987}
   m_Layer: 0
   m_Name: PowerUpToken
   m_TagString: Untagged
@@ -152,25 +151,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f1eb5df0874a4c4cbc55b50906c20c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3117162740268866987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6102267043309709628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  observableSearch: 2
-  Synchronization: 3
-  OwnershipTransfer: 0
-  ObservedComponents: []
-  viewIdField: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0

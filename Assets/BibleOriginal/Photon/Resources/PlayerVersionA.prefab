@@ -17,8 +17,6 @@ GameObject:
   - component: {fileID: 3691131965510577495}
   - component: {fileID: 3608988726771202225}
   - component: {fileID: 596104514392586275}
-  - component: {fileID: 4728223007842893556}
-  - component: {fileID: 4273371515405827889}
   m_Layer: 13
   m_Name: PlayerVersionA
   m_TagString: Player
@@ -307,49 +305,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cd99460d1c310449bb02bb7111a3e4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveRatio: 0.05
-  defaultBulletSpeed: 5
-  bulletSpeedRatio: 0.2
-  nameLabel: {fileID: 1490535184271775468}
---- !u!114 &4728223007842893556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860633650605393278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  observableSearch: 2
-  Synchronization: 3
-  OwnershipTransfer: 0
-  ObservedComponents:
-  - {fileID: 4273371515405827889}
-  viewIdField: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
---- !u!114 &4273371515405827889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860633650605393278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
-  m_UseLocal: 1
 --- !u!1 &2483339062118882980
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,7 +315,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6785645265799199657}
   - component: {fileID: 4690566899958094983}
-  - component: {fileID: 7978335301692709666}
   - component: {fileID: 1490535184271775468}
   m_Layer: 13
   m_Name: Text (TMP)
@@ -429,14 +383,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!222 &7978335301692709666
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2483339062118882980}
-  m_CullTransparentMesh: 0
 --- !u!114 &1490535184271775468
 MonoBehaviour:
   m_ObjectHideFlags: 0
